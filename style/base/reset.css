@@ -1,0 +1,73 @@
+/*
+/* Reset
+/* ========================= */
+
+/* Misc
+/* ------------------------- */
+
+ul { list-style: none; }
+
+img { display: block; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Boxsizing
+/* ------------------------- */
+
+h1, h2, h3, h4, h5, p, a, div, ul, ol, li, input, textarea, form, button, hr {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+/* Form
+/* ------------------------- */
+
+/* Remove browser default - focus blue outline */
+textarea:focus,
+input:focus,
+select:focus,
+button:focus {
+  outline: 0;
+}
+
+/* Remove webkit innput number arrows */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Remove firefox input number arrows */
+input[type='number'] { -moz-appearance: textfield; }
+
+
+/* Allow only vertical resize */
+textarea { resize: vertical; }
+
+/* Placeholder */
+::-webkit-input-placeholder,
+:-ms-input-placeholder
+::-moz-placeholder {
+  font-size: 14px;
+  color: $cl-text-minor;
+}
+
+/* Select */
+select:-moz-focusring {
+  /* remove firefox focus line */
+  color: transparent;
+  text-shadow: 0 0 0 #000;
+}
+
+select::-ms-expand {
+  /* remove ie select arrow */
+  display: none;
+}
+
+button { background-color: transparent; }
+
