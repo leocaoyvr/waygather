@@ -4,6 +4,7 @@ var browserSync = require('browser-sync').create();
 var cache       = require('gulp-cached');
 var changed     = require('gulp-changed');
 var runSequence = require('run-sequence');
+var csslint     = require('gulp-csslint');
 
 // Browser Sync Dev
 gulp.task('browserSync', function() {
@@ -33,6 +34,8 @@ gulp.task('css', function() {
   return gulp.src('./style/**/*.css')
     .pipe(cache('cssCache'))
     .pipe(changed('./style/**/*.css'))
+    .pipe(csslint())
+    .pipe(csslint.formatter())
     .on('error', function (error) {
       console.error(error);
       this.emit('end');

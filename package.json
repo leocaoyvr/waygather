@@ -5,6 +5,7 @@
     "gulp": "^3.9.1",
     "gulp-cached": "^1.1.1",
     "gulp-changed": "^2.0.0",
+    "gulp-csslint": "^1.0.0",
     "run-sequence": "^1.2.2"
   },
   "scripts": {
