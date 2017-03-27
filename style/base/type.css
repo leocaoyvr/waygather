@@ -147,3 +147,10 @@ h6, .h6 {
 p { font-size: 1.4em; }
 
 p + p { margin-top: .875em; }
+
+/* Others
+/* ------------------------- */
+
+.bold { font-weight: 600; }
+
+b, .bolder { font-weight: 700; }
