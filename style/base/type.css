@@ -1,0 +1,149 @@
+/*
+/* Type
+/* ========================= */
+
+/* Open Sans
+/* ------------------------- */
+/* 300  Light
+/* 400  Regular
+/* 600  Semibold
+/* 700  Bold
+/* 800  Extra Bold
+/* ------------------------- */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'),
+       local('OpenSans-Light'),
+       url('/font/OpenSans-Light.woff2') format('woff2'),
+       url('/font/OpenSans-Light.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+                 U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'),
+       local('OpenSans'),
+       url('/font/OpenSans.woff2') format('woff2'),
+       url('/font/OpenSans.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+                 U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'),
+       local('OpenSans-Semibold'),
+       url('/font/OpenSans-Semibold.woff2') format('woff2'),
+       url('/font/OpenSans-Semibold.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+                 U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'),
+       local('OpenSans-Bold'),
+       url('/font/OpenSans-Bold.woff2') format('woff2'),
+       url('/font/OpenSans-Bold.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+                 U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans Extrabold'),
+       local('OpenSans-Extrabold'),
+       url('/font/OpenSans-Extrabold.woff2') format('woff2'),
+       url('/font/OpenSans-Extrabold.woff') format('woff');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+                 U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* Base
+/* ------------------------- */
+
+html { font-size: 10px; }
+
+body {
+  font-family: 'Open Sans',
+               -apple-system, /* Safari for macOS & iOS (San Francisco) */
+               system-ui,     /* Chrome for Windows, Linux & Android */
+               'Segoe UI',    /* Windows */
+               'Helvetica Neue',
+               Arial,
+               sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+  color: #333;
+  font-weight: 400;
+  background-color: #fff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Heading
+/* ------------------------- */
+
+h1,
+.h0, .h1 {
+  line-height: 1.1;
+}
+
+h2, h3, h4, h5, h6,
+.h2, .h3, .h4, .h5, .h6 {
+  line-height: 1.2;
+  font-weight: 600; /* semibold */
+}
+
+.h0 {
+  /* bold display title */
+  font-size: 5em;
+  font-weight: 300; /* light */
+}
+
+h1, .h1 {
+  font-size: 2.8em;
+  font-weight: 400; /* regular */
+}
+
+h2, .h2 {
+  font-size: 2em;
+}
+
+h3, .h3 {
+  font-size: 1.6em;
+}
+
+h4, .h4 {
+  font-size: 1.4em;
+}
+
+h5, .h5 {
+  font-size: 1.3em;
+  letter-spacing: 0.015em;
+}
+
+h6, .h6 {
+  font-size: 1.1em;
+  letter-spacing: 0.01em;
+}
+
+/* Paragraph
+/* ------------------------- */
+
+p { font-size: 1.4em; }
+
+p + p { margin-top: .875em; }
