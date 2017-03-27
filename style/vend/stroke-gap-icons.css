@@ -1,16 +1,16 @@
 @font-face {
   font-family: "Stroke Gap Icons";
-  src:url("../font/Stroke-Gap-Icons.eot");
-  src:url("../font/Stroke-Gap-Icons.eot?#iefix") format("embedded-opentype"),
-    url("../font/Stroke-Gap-Icons.woff") format("woff"),
-    url("../font/Stroke-Gap-Icons.ttf") format("truetype"),
-    url("../font/Stroke-Gap-Icons.svg#Stroke-Gap-Icons") format("svg");
+  src:url("/font/Stroke-Gap-Icons.eot");
+  src:url("/font/Stroke-Gap-Icons.eot?#iefix") format("embedded-opentype"),
+    url("/font/Stroke-Gap-Icons.woff") format("woff"),
+    url("/font/Stroke-Gap-Icons.ttf") format("truetype"),
+    url("/font/Stroke-Gap-Icons.svg#Stroke-Gap-Icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="eg-"]:before,
-[class*=" eg-"]:before {
+[class^="sg-"]:before,
+[class*=" sg-"]:before {
   font-family: "Stroke Gap Icons"!important;
   font-style: normal!important;
   font-weight: normal!important;
