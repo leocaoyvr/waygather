@@ -19,8 +19,10 @@
   width: 974px; /* 2px both slides to offset border-spacing */
   margin-left: auto;
   margin-right: auto;
+  margin-top: 140px;
 }
 
+/* form tabs */
 .svcfomrs-tabs {
   display: table;
   width: 100%;
@@ -38,6 +40,13 @@
   background-color: rgba(0, 0, 0, .75);
   backdrop-filter: blur(2px);
   border-collapse: separate;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.svcforms-tab:hover {
+  background-color: #222;
+  background-color: rgba(0, 0, 0, .85);
 }
 
 .svcforms-tab i {
@@ -53,8 +62,29 @@
 
 .svcforms-tab.active {
   background-color: #669fdf;
-  background-color: rgba(207, 86, 95, .75);
+  background-color: rgba(34, 150, 243, .75);
   backdrop-filter: blur(2px);
 }
 
-.svcforms-tab .lh1 { line-height: 1; } /* when double row
+.svcforms-tab .lh1 { line-height: 1; } /* when double row */
+
+/* forms */
+.svcforms-forms {
+  padding: 1rem 1.3rem;
+  background-color: #fff;
+  box-shadow: 0 5px 24px 1.25px rgba(0, 0, 0, 0.06);
+}
+
+.svcforms-form {
+  display: none;
+}
+
+.svcforms-form.active { display: block; }
+
+.svcform-signin {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.svcform-signin-link { text-decoration: underline; }
+.svcform-signin-link:hover { color: #333; }

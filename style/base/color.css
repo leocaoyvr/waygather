@@ -13,7 +13,7 @@
 /* Text
 /* ------------------------- */
 
-.cl-text-brand { color: #1f87da; } /* blue dark: rgb(207, 86, 85); */
+.cl-text-brand { color: #1f87da; } /* blue dark: rgb(31, 135, 218); */
 .cl-text-bold  { color: #ff6c03; } /* orange dark */
 
 .cl-text       { color: #333; }
@@ -23,7 +23,7 @@
 /* Background
 /* ------------------------- */
 
-.cl-bg-brand   { background-color: #2296f3; } /* blue: rgb(207, 86, 95); */
+.cl-bg-brand   { background-color: #2296f3; } /* blue: rgb(34, 150, 243); */
 .cl-bg-bold    { background-color: #ff8d03; } /* orange */
 
 .cl-bg-red     { background-color: #fa252d; }
