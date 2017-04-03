@@ -1,0 +1,30 @@
+/*
+/* Atom CSS
+/* atomic css for fine tuning & quick fix
+/* ========================= */
+
+/* Spacing
+/* ------------------------- */
+
+.ml0  { margin-left: 0;     }
+.ml01 { margin-left: .1rem; }
+.ml02 { margin-left: .2rem; }
+.ml03 { margin-left: .3rem; }
+.ml04 { margin-left: .4rem; }
+.ml05 { margin-left: .5rem; }
+.ml06 { margin-left: .6rem; }
+.ml07 { margin-left: .7rem; }
+.ml08 { margin-left: .8rem; }
+.ml09 { margin-left: .9rem; }
+.ml09 { margin-left: .9rem; }
+.ml1  { margin-left: 1rem;  }
+.ml11 { margin-left: 1.1rem; }
+.ml12 { margin-left: 1.2rem; }
+.ml13 { margin-left: 1.3rem; }
+.ml14 { margin-left: 1.4rem;  }
+
+/* Type
+/* ------------------------- */
+
+/* letter spacing */
+.ls0  { letter-spacing: 0; }

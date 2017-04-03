@@ -61,7 +61,10 @@
 
 .navbar-search-holder {}
 
-.navbar-search-field { border-width: 0 1px; }
+.navbar-search-field {
+  border-width: 0 1px;
+  background-color: transparent;
+}
 
 .navbar-search-field:focus {
   background-color: transparent;

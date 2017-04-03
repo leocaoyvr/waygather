@@ -1,0 +1,60 @@
+
+/* Home Page
+/* ========================= */
+
+
+/* Hero
+/* ------------------------- */
+
+.home .hero {
+  position: absolute;
+  top: 4em;
+  z-index: -1;
+}
+
+/* Service Form
+/* ------------------------- */
+
+.svcForms {
+  width: 974px; /* 2px both slides to offset border-spacing */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.svcfomrs-tabs {
+  display: table;
+  width: 100%;
+  border-spacing: 2px 0;
+}
+
+.svcforms-tab {
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  width: 20%;
+  padding: 1.7em 0 1.7em 1.4em;
+  color: #fff;
+  background-color: #3c3d3e;
+  background-color: rgba(0, 0, 0, .75);
+  backdrop-filter: blur(2px);
+  border-collapse: separate;
+}
+
+.svcforms-tab i {
+  font-size: 2.4em;
+  float: left;
+  margin-right: .7rem;
+}
+
+.svcforms-tab span {
+  line-height: 2.4rem;
+  display: inline-block;
+}
+
+.svcforms-tab.active {
+  background-color: #669fdf;
+  background-color: rgba(207, 86, 95, .75);
+  backdrop-filter: blur(2px);
+}
+
+.svcforms-tab .lh1 { line-height: 1; } /* when double row
