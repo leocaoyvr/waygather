@@ -1,0 +1,12 @@
+/*
+/* Default Layout
+/* ========================= */
+
+
+.wrapper {
+  min-width: 1170px; /* content area width */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+

@@ -19,5 +19,6 @@
   "order-alphabetical": false,
   "import": false,
   "bulletproof-font-face": false,
-  "font-faces": false
+  "font-faces": false,
+  "empty-rules": false
 }

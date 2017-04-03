@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
   <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
-  <link rel="stylesheet" type="text/css" href="/style/style.css" />
+  <link rel="stylesheet" type="text/css" href="/style/style.bundle.css" />
   <script type="text/javascript" charset="utf-8" src="/script/jquery.js"></script>
   <script type="text/javascript" charset="utf-8" src="/script/ux.js"></script>
 
@@ -14,54 +14,62 @@
   <div class="wrapper"><!-- .wrapper begin -->
     <div class="header"><!-- .header begin -->
       <div class="topbar"><!-- .topbar begin -->
-        <p class="topbar-text">Hello, we are experts in lighting solutions.</p>
-        <div class="topbar-account">
-          <i class="sg-user"></i>
-          <span>Hello, Sign In</span>
-        </div>
+        <div class="topbar-inner"><!-- .topbar-inner begin -->
+          <p class="topbar-text">Hello, we are experts in lighting solutions.</p>
+          <div class="topbar-account">
+            <div class="topbar-account-inner">
+              <a href="">
+                <i class="sg-user"></i>
+                <span>Hello, Sign In</span>
+              </a>
+            </div>
+          </div>
+        </div><!-- .topbar-inner end -->
       </div><!-- .topbar end -->
       <div class="navbar"><!-- .navbar begin -->
-        <a class="navbar-logo" href="/" title="WayGather Home Page"><!-- .navbar-logo begin -->
-          <img src="/img/logo-WayGather-510x84.png"
-               width="255"
-               height="42"
-               alt="WayGather logo">
-        </a><!-- .navbar-logo end -->
-        <ul class="navbar-navs"><!-- .navbar-navs begin -->
-          <li class="navbar-nav">
-            <a href="/" class="navbar-nav-link">Services</a>
-          </li>
-          <li class="navbar-nav">
-            <a href="/products" class="navbar-nav-link">Products</a>
-          </li>
-        </ul><!-- .navbar-navs end -->
-        <div class="navbar-search"><!-- .navbar-search begin -->
-          <label class="navbar-search-label" for="">
-            <i class="sg-search"></i>
-            <span>What are you looking for?</span>
-          </label>
-          <input class="navbar-search-field" type="text" type="search">
-        </div><!-- .navbar-search end-->
-        <ul class="navbar-funcs"><!-- .navbar-funcs begin -->
-          <li class="navbar-func">
-            <a href="" class="navbar-func-link">
-              <i class="sg-ringer"></i>
-              <p class="h6">Notice</p>
-            </a>
-          </li>
-          <li class="navbar-func">
-            <a href="" class="navbar-func-link">
-              <i class="sg-heart"></i>
-              <p class="h6">Favorite</p>
-            </a>
-          </li>
-          <li class="navbar-func">
-            <a href="" class="navbar-func-link">
-              <i class="sg-compare"></i>
-              <p class="h6">Compare</p>
-            </a>
-          </li>
-        </ul><!-- .navbar-funcs end -->
+      <div class="navbar-inner"><!-- .navbar-inner begin -->
+          <a class="navbar-logo" href="/" title="WayGather Home Page"><!-- .navbar-logo begin -->
+            <img src="/img/logo-WayGather-510x84.png"
+                 width="255"
+                 height="42"
+                 alt="WayGather logo">
+          </a><!-- .navbar-logo end -->
+          <ul class="navbar-navs"><!-- .navbar-navs begin -->
+            <li class="navbar-nav">
+              <a href="/" class="navbar-nav-link">Services</a>
+            </li>
+            <li class="navbar-nav">
+              <a href="/products" class="navbar-nav-link">Products</a>
+            </li>
+          </ul><!-- .navbar-navs end -->
+          <div class="navbar-search"><!-- .navbar-search begin -->
+            <label class="navbar-search-label" for="">
+              <i class="sg-search"></i>
+              <span>What are you looking for?</span>
+            </label>
+            <input class="navbar-search-field" type="text" type="search">
+          </div><!-- .navbar-search end-->
+          <ul class="navbar-funcs"><!-- .navbar-funcs begin -->
+            <li class="navbar-func">
+              <a href="" class="navbar-func-link">
+                <i class="sg-ringer"></i>
+                <p class="h6">Notice</p>
+              </a>
+            </li>
+            <li class="navbar-func">
+              <a href="" class="navbar-func-link">
+                <i class="sg-heart"></i>
+                <p class="h6">Favorite</p>
+              </a>
+            </li>
+            <li class="navbar-func">
+              <a href="" class="navbar-func-link">
+                <i class="sg-compare"></i>
+                <p class="h6">Compare</p>
+              </a>
+            </li>
+          </ul><!-- .navbar-funcs end -->
+          </div><!-- .navbar-inner end -->
       </div><!-- .navbar end -->
     </div><!-- .header end -->
 
