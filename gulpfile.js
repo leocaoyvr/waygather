@@ -1,10 +1,11 @@
 // Requirements
-var gulp        = require('gulp');
-var browserSync = require('browser-sync').create();
-var cache       = require('gulp-cached');
-var changed     = require('gulp-changed');
-var runSequence = require('run-sequence');
-var csslint     = require('gulp-csslint');
+var gulp         = require('gulp');
+var browserSync  = require('browser-sync').create();
+var runSequence  = require('run-sequence');
+var csslint      = require('gulp-csslint');
+var autoprefixer = require('gulp-autoprefixer');
+var importCss    = require('gulp-import-css');
+var rename       = require('gulp-rename');
 
 // Browser Sync Dev
 gulp.task('browserSync', function() {
@@ -31,15 +32,17 @@ gulp.task('browserSync', function() {
 
 // css
 gulp.task('css', function() {
-  return gulp.src('./style/**/*.css')
-    .pipe(cache('cssCache'))
-    .pipe(changed('./style/**/*.css'))
-    .pipe(csslint())
+  return gulp.src('./style/style.css')
+    .pipe(importCss())
+    .pipe(rename({suffix: '.bundle'}))
+    .pipe(csslint('csslintrc.json'))
     .pipe(csslint.formatter())
+    .pipe(autoprefixer({ browsers: ['last 2 versions'] }))
     .on('error', function (error) {
       console.error(error);
       this.emit('end');
     })
+    .pipe(gulp.dest('./style'))
     .pipe(browserSync.stream());
 });
 
