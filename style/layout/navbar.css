@@ -1,0 +1,96 @@
+/*
+/* Nav Bar
+/* ========================= */
+
+.navbar {
+  height: 8em;
+  background-color: #fefefe;
+  background-color: rgba(255, 255, 255, .92);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 7px 18px 3px rgba(0, 0, 0, 0.03);
+}
+
+.navbar-inner {}
+
+.navbar-inner > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Logo
+/* ------------------------- */
+
+.navbar-logo { width: 300px; }
+
+/* Nav
+/* ------------------------- */
+
+.navbar-navs { width: 260px; }
+
+.navbar-nav {
+  display: inline-block;
+}
+
+.navbar-nav + .navbar-nav { margin-left: 2em; }
+
+.navbar-nav-link {
+  display: block;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  padding: .85em .5em;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-nav-link.active,
+.navbar-nav-link:hover {
+  color: #1f87da;
+}
+
+.navbar-nav-link.active {
+  border-bottom-color: #1f87da;
+}
+
+/* Search
+/* ------------------------- */
+
+.navbar-search {
+  position: relative;
+  width: 400px;
+}
+
+.navbar-search-holder {}
+
+.navbar-search-field { border-width: 0 1px; }
+
+.navbar-search-field:focus {
+  background-color: transparent;
+  border-color: #e0e0e0;
+}
+
+/* Function Menu
+/* ------------------------- */
+
+.navbar-funcs {
+  width: 200px;
+  padding-left: 10px;
+}
+
+.navbar-funcs-inner {
+  display: table;
+  width: 100%;
+}
+
+.navbar-func {
+  display: table-cell;
+  text-align: center;
+  width: 33.33%;
+}
+
+.navbar-func i {
+  font-size: 1.8em;
+}
+
+.navbar-func p {
+  margin-top: .5em;
+}

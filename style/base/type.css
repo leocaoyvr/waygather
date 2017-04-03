@@ -115,38 +115,38 @@ h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.8em;
+  font-size: 2.8rem;
   font-weight: 400; /* regular */
 }
 
 h2, .h2 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 h3, .h3 {
-  font-size: 1.6em;
+  font-size: 1.6rem;
 }
 
 h4, .h4 {
-  font-size: 1.4em;
+  font-size: 1.4rem;
 }
 
 h5, .h5 {
-  font-size: 1.3em;
-  letter-spacing: 0.015em;
+  font-size: 1.3rem;
+  letter-spacing: 0.015rem;
 }
 
 h6, .h6 {
-  font-size: 1.1em;
-  letter-spacing: 0.01em;
+  font-size: 1.1rem;
+  letter-spacing: 0.01rem;
 }
 
 /* Paragraph
 /* ------------------------- */
 
-p { font-size: 1.4em; }
+p { font-size: 1.4rem; }
 
-p + p { margin-top: .875em; }
+p + p { margin-top: .875rem; }
 
 /* Others
 /* ------------------------- */

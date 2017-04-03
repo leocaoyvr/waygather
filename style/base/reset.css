@@ -37,11 +37,8 @@ h1, h2, h3, h4, h5, p, a, div, ul, ol, li, input, textarea, form, button, hr {
 /* ------------------------- */
 
 /* Remove browser default - focus blue outline */
-textarea:focus,
-input:focus,
-select:focus,
-button:focus {
-  outline: 0;
+:focus {
+  outline: none;
 }
 
 /* Remove webkit innput number arrows */
@@ -56,14 +53,6 @@ input[type='number'] { -moz-appearance: textfield; }
 
 /* Allow only vertical resize */
 textarea { resize: vertical; }
-
-/* Placeholder */
-::-webkit-input-placeholder,
-:-ms-input-placeholder,
-::-moz-placeholder {
-  font-size: 14px;
-  color: #b0b0b0;
-}
 
 /* Select */
 select:-moz-focusring {

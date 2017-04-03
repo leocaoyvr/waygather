@@ -40,7 +40,7 @@ gulp.task('css', function() {
     .pipe(csslint('csslintrc.json'))
     .pipe(csslint.formatter())
     .pipe(csslint.formatter('fail'))
-    .pipe(autoprefixer({ browsers: ['last 2 versions'] }))
+    .pipe(autoprefixer({ browsers: ['last 2 versions', 'ie 8-11'] }))
     .on('error', function (error) {
       console.error(error);
       this.emit('end');

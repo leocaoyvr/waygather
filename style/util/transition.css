@@ -1,0 +1,7 @@
+/*
+/* Transition
+/* ========================= */
+
+.transition-all-default {
+  transition: all .5s ease;
+}

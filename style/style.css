@@ -42,11 +42,13 @@
 /* Layout
 /* ------------------------- */
 
-@import url('layout/default.css');
-@import url('layout/footer.css');
+@import url('layout/block.css');
 @import url('layout/form.css');
 @import url('layout/header.css');
-@import url('layout/block.css');
+@import url('layout/topbar.css');
+@import url('layout/navbar.css');
+@import url('layout/footer.css');
+@import url('layout/default.css');
 
 /* Pages
 /* page-specific styles

@@ -4,53 +4,5 @@
 
 .header {}
 
-/* Top Bar
-/* ------------------------- */
 
-.topbar {
-  height: 4em;
-  background-color: #2296f3;
-}
 
-.topbar-inner {
-  display: table;
-  width: 100%;
-  height: 100%;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.topbar-text,
-.topbar-account {
-  font-size: 1.2em;
-  color: #eaf2f8; /* IE 8 fallback */
-  color: rgba(255, 255, 255, .9);
-  display: table-cell;
-  vertical-align: middle;
-  /*line-height: 4rem;*/
-  /*height: 100%;*/
-}
-
-.topbar-text {}
-
-.topbar-account {
-  display: table-cell;
-  text-align: right;
-}
-
-.topbar-account-inner {
-  background-color: #528ac6; /* IE 8 fallback */
-  background-color: rgba(255, 255, 255, .15);
-  display: inline-block;
-  padding-left: 1em;
-  padding-right: 1em;
-  line-height: 4rem;
-}
-
-/* Nav Bar
-/* ------------------------- */
-
-.navbar {
-
-}
