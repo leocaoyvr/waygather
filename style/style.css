@@ -6,34 +6,34 @@
 /* css files from 3rd-party
 /* ------------------------- */
 
-@import 'vend/normalize.css';
-@import 'vend/stroke-gap-icons.css';
+@import url('vend/normalize.css');
+@import url('vend/stroke-gap-icons.css');
 
 /* Base
 /* the boilerplate stuff
 /* ------------------------- */
 
-@import 'base/color.css';
-@import 'base/reset.css';
-@import 'base/type.css';
+@import url('base/color.css');
+@import url('base/reset.css');
+@import url('base/type.css');
 
 /* Utilities
 /* tools and helpers
 /* ------------------------- */
 
-@import 'util/responsive.css';
-@import 'util/shadow.css';
-@import 'util/transition.css';
+@import url('util/responsive.css');
+@import url('util/shadow.css');
+@import url('util/transition.css');
 
 /* Modules
 /* small components
 /* ------------------------- */
 
-@import 'mod/button.css';
-@import 'mod/custom-form.css';
-@import 'mod/link.css';
-@import 'mod/navbar.css';
-@import 'mod/navbar-mobile.css';
+@import url('mod/button.css');
+@import url('mod/custom-form.css');
+@import url('mod/link.css');
+@import url('mod/navbar.css');
+@import url('mod/navbar-mobile.css');
 
 /* Block
 /* large and complex blocks
@@ -42,20 +42,21 @@
 /* Layout
 /* ------------------------- */
 
-@import 'layout/footer.css';
-@import 'layout/form.css';
-@import 'layout/header.css';
-@import 'layout/block.css';
+@import url('layout/default.css');
+@import url('layout/footer.css');
+@import url('layout/form.css');
+@import url('layout/header.css');
+@import url('layout/block.css');
 
 /* Pages
 /* page-specific styles
 /* ------------------------- */
 
 /* Home page */
-@import 'page/home.css';
+@import url('page/home.css');
 
 /* Others
 /* ------------------------- */
 
-@import 'util/atom.css';
+@import url('util/atom.css');
 
