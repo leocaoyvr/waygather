@@ -6,6 +6,7 @@ var csslint      = require('gulp-csslint');
 var autoprefixer = require('gulp-autoprefixer');
 var importCss    = require('gulp-import-css');
 var rename       = require('gulp-rename');
+var plumber      = require('gulp-plumber');
 
 // Browser Sync Dev
 gulp.task('browserSync', function() {
@@ -33,10 +34,12 @@ gulp.task('browserSync', function() {
 // css
 gulp.task('css', function() {
   return gulp.src('./style/style.css')
+    .pipe(plumber())
     .pipe(importCss())
     .pipe(rename({suffix: '.bundle'}))
     .pipe(csslint('csslintrc.json'))
     .pipe(csslint.formatter())
+    .pipe(csslint.formatter('fail'))
     .pipe(autoprefixer({ browsers: ['last 2 versions'] }))
     .on('error', function (error) {
       console.error(error);
