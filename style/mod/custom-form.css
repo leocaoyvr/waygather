@@ -1,0 +1,86 @@
+/*
+/* Custom Form Elements
+/* ========================= */
+
+/* Input Addon
+/* ------------------------- */
+
+.input-addon {
+  position: absolute;
+  pointer-events: none;
+  font-size: 1.4rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  top: 1px;
+  right: 1px;
+  border-left: 1px solid #e0e0e0;
+  transition: border-color ease .4s, background-color ease .4s;
+}
+
+.form-control:hover + .input-addon { border-left-color: #d6d6d6; }
+
+.form-control:focus + .input-addon {
+  border-left-color: #2296f3;
+  background-color: #e4f2fd;
+  background-color: rgba(34, 150, 243, .12);
+}
+
+.form-control-select:focus + .input-addon {
+  background-color: transparent;
+}
+
+.input-addon-icn {
+  font-size: 1.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Custom Select
+/* ------------------------- */
+
+.form-control-select {
+  background-color: transparent;
+  /* disable browser default style */
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.form-control-select + .icn-arrow-down {
+  width: 1em;
+  height: 1em;
+  padding: 1.2rem 1.4rem;
+  background: #fff url('/img/icn-arrow-down-grey-28x28.png') center center no-repeat;
+  background-size: 1em 1em;
+}
+
+/* Input Group
+/* ------------------------- */
+
+.input-group {
+  display: table;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.input-group .input-field {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.input-group .input-addon {
+  border-left: 0;
+}
+
+.input-group-select {
+  width: auto;
+  min-width: 4.5em;
+}
+
+.input-group-select .form-control-select { border-left-color: transparent; }
+.input-group-select .form-control-select:focus { border-left-color: #2296f3; }
+
+.input-group-select .input-addon {
+  background-color: transparent;
+  border-left-width: 0;
+}

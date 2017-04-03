@@ -61,6 +61,7 @@
 }
 
 .svcforms-tab.active {
+  cursor: default;
   background-color: #669fdf;
   background-color: rgba(34, 150, 243, .75);
   backdrop-filter: blur(2px);

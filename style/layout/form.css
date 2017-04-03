@@ -7,6 +7,8 @@
   border-spacing: 1.7rem 2rem;
 }
 
+.form tbody:nth-of-type(n + 2) .form-row-title { margin-top: 1rem; }
+
 .form-row {}
 
 .form-row td[colspan='1'] { width: 25%; }
@@ -14,8 +16,15 @@
 .form-row td[colspan='3'] { width: 75%; }
 .form-row td[colspan='4'] { width: 100%; }
 
+.form .form-row-title {}
+
 .form .input-field {
 }
 
 .form .input-field.col4 { column-span: 4; }
 .form .input-field.col2 { column-span: 2; }
+
+/* Form Button
+/* ------------------------- */
+
+.form .btn-primary { width: 100%; }
