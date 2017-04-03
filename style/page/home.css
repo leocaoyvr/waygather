@@ -89,3 +89,16 @@
 
 .svcform-signin-link { text-decoration: underline; }
 .svcform-signin-link:hover { color: #333; }
+
+/* Service Info
+/* ------------------------- */
+
+.svcinfos {
+  background: -moz-linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(250,250,250,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 100%); /* ie10+ */
+  background: linear-gradient(0deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa',GradientType=0 ); /* ie6-9 */
+}
