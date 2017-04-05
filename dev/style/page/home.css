@@ -16,10 +16,12 @@
 /* ------------------------- */
 
 .svcForms {
+  position: relative;
   width: 974px; /* 2px both slides to offset border-spacing */
   margin-left: auto;
   margin-right: auto;
   margin-top: 140px;
+  margin-bottom: 5rem;
 }
 
 /* form tabs */
@@ -93,7 +95,7 @@
 /* Service Info
 /* ------------------------- */
 
-.svcinfos {
+.svcinfo {
   background: -moz-linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 100%); /* ff3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(250,250,250,1))); /* safari4+,chrome */
   background: -webkit-linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
@@ -102,3 +104,51 @@
   background: linear-gradient(0deg, rgba(250,250,250,1) 0%, rgba(255,255,255,1) 100%); /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fafafa',GradientType=0 ); /* ie6-9 */
 }
+
+.svcinfo-inner {
+  display: table;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 6rem;
+}
+
+.svcinfo-inner > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.svcinfo-specs {
+  width: 600px;
+}
+
+.svcinfo-specs-inner {
+  display: table;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.svcinfo-spec {
+  display: table-cell;
+}
+
+.svcinfo-spec-num {
+  color: #ff6c03;
+}
+
+.svcinfo-spec-num-alt {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.svcinfo-spec-text {
+  font-weight: 400;
+  /*margin-top: .25em;*/
+  margin-top: 1em;
+  margin-left: .25em;
+}
+
+.svcinfo-text-title { font-weight: 400; }
+
+.svcinfo-text-bd { margin-top: 1.25em; }
