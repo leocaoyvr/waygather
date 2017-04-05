@@ -358,3 +358,53 @@
 .prodcard-tag-hot{ background-color: #fa252d; }
 
 .prodcard-tag-verified { background-color: #2296f3; }
+
+/* Service Gurantees
+/* ------------------------- */
+
+.svcguarantees {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  padding: 4rem 3rem;
+}
+
+.svcguarantee {
+  display: table-cell;
+  width: 33.33%;
+  padding-right: 2rem;
+}
+
+.svcguarantee:first-of-type { box-shadow: 1px 0 0 0 #e0e0e0; }
+.svcguarantee:nth-of-type(2) { box-shadow: 1px 0 0 0 #e0e0e0; }
+
+.svcguarantee-icn {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 3.2rem;
+  color: #ff8d03;
+  border: 1px solid #ff8d03;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.svcguarantee-icn i {
+  display: inline-block;
+  line-height: 1;
+  padding-top: 1.8rem;
+}
+
+.svcguarantee-inner {
+  display: table;
+  width: 100%;
+}
+
+.svcguarantee-inner > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.svcguarantee-bd { margin-top: .75em; }
