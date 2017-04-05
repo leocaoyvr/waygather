@@ -15,7 +15,7 @@ gulp.task('browserSync', function() {
     port: 8080,
     ghostMode: false,
     server: {
-      baseDir: './',
+      baseDir: './dev',
       index: '/view/index.html'
     }
   });
@@ -24,16 +24,16 @@ gulp.task('browserSync', function() {
     browserSync.reload();
   };
 
-  gulp.watch(['./view/*.html']).on('change', reloadBrowser);
-  gulp.watch(['./script/*.js']).on('change', reloadBrowser);
-  gulp.watch(['./img/*']).on('change', reloadBrowser);
-  gulp.watch(['./font/*']).on('change', reloadBrowser);
-  gulp.watch(['./style/**/*.css'], ['css']);
+  gulp.watch(['dev/view/*.html']).on('change', reloadBrowser);
+  gulp.watch(['dev/script/*.js']).on('change', reloadBrowser);
+  gulp.watch(['dev/img/*']).on('change', reloadBrowser);
+  gulp.watch(['dev/font/*']).on('change', reloadBrowser);
+  gulp.watch(['dev/style/**/*.css'], ['css']);
 });
 
 // css
 gulp.task('css', function() {
-  return gulp.src('./style/style.css')
+  return gulp.src('dev/style/style.css')
     .pipe(plumber())
     .pipe(importCss())
     .pipe(rename({suffix: '.bundle'}))
@@ -45,7 +45,7 @@ gulp.task('css', function() {
       console.error(error);
       this.emit('end');
     })
-    .pipe(gulp.dest('./style'))
+    .pipe(gulp.dest('dev/style'))
     .pipe(browserSync.stream());
 });
 
