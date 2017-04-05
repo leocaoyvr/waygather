@@ -21,6 +21,13 @@
   margin-right: auto;
 }
 
+@media (max-width: 1600px) {
+  .home .hero-img {
+     margin-left: 50%;
+     transform: translateX(-50%);
+  }
+}
+
 /* Service Form
 /* ------------------------- */
 
@@ -275,6 +282,7 @@
   padding: 3rem;
   background-color: #fff;
   text-align: center;
+  position: relative;
 }
 
 .prodcard-inner:hover {
@@ -315,7 +323,10 @@
   width: 33px;
   height: 33px;
   border: 1px solid #e0e0e0;
+  transition: all .4s ease;
 }
+
+.prodcard-nail img:hover { opacity: .75; }
 
 .prodcard-text {
   margin-top: .75em;
@@ -324,3 +335,26 @@
 }
 
 .prodcard-price { color: #ff6c03; }
+
+/* tags */
+
+.prodcard-tag-hot,
+.prodcard-tag-verified {
+  text-transform: uppercase;
+  position: absolute;
+  height: 2rem;
+  min-width: 3rem;
+  padding-left: .5em;
+  padding-right: .5em;
+  line-height: 2rem;
+  color: #fff;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.015em;
+  font-weight: 600;
+}
+
+.prodcard-tag-hot{ background-color: #fa252d; }
+
+.prodcard-tag-verified { background-color: #2296f3; }
