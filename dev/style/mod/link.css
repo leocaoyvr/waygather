@@ -3,5 +3,41 @@
 /* ========================= */
 
 a {
-  transition: all .5s ease;
+  transition: all .4s ease;
+}
+
+.link-minor:after {
+  margin-left: .2em;
+  content: '';
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background: url('/img/icn-double-arrow-right-white-16x16.png')
+              center center
+              / 8px 8px
+              no-repeat;
+}
+
+.link-arrow {
+  color: #1f87da;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+}
+
+.link-arrow:after {
+  content: '';
+  transition: all .4s ease;
+  margin-left: .5em;
+  width: 16px;
+  height: 10px;
+  display: inline-block;
+  background: url('/img/icn-arrow-right-brand-32x20.png')
+              center center
+              / 16px 10px
+              no-repeat;
+}
+
+.link-arrow:hover:after {
+  transform: translateX(4px);
 }

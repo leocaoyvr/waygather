@@ -13,18 +13,23 @@
   height: 4rem;
   line-height: 4rem;
   min-width: 200px;
-  transition: background-color .5s ease;
+  transition: all .4s ease;
   cursor: pointer;
 }
 
-.btn-primary:hover { background-color: #1f87da; }
+.btn-primary:hover,
+.btn-primary-arrow:hover { background-color: #1f87da; }
 
 .btn-primary-arrow {
   text-align: left;
-  background-image: url('/img/icn-arrow-right-white-32x28.png');
+  background-image: url('/img/icn-arrow-right-white-32x20.png');
   background-repeat: no-repeat;
-  background-size: 16px 14px;
+  background-size: 16px 10px;
   background-position: right 1em center;
+}
+
+.btn-primary-arrow:hover {
+  background-position: right .7em center;
 }
 
 

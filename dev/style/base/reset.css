@@ -15,7 +15,9 @@ body {
 
 ul { list-style: none; }
 
-img { display: block; }
+img {
+  display: block;
+}
 
 a {
   color: inherit;

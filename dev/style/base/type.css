@@ -110,7 +110,7 @@ h2, h3, h4, h5, h6,
 
 .h0 {
   /* bold display title */
-  font-size: 5em;
+  font-size: 5rem;
   font-weight: 300; /* light */
 }
 
@@ -133,12 +133,13 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.3rem;
-  letter-spacing: 0.015rem;
+  letter-spacing: 0.015em;
 }
 
 h6, .h6 {
   font-size: 1.1rem;
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
 }
 
 /* Paragraph
@@ -146,7 +147,7 @@ h6, .h6 {
 
 p { font-size: 1.4rem; }
 
-p + p { margin-top: .875rem; }
+p + p { margin-top: .875em; }
 
 /* Others
 /* ------------------------- */

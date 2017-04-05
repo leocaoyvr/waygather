@@ -40,3 +40,5 @@
   padding-right: 1em;
   line-height: 4rem;
 }
+
+.topbar-account-inner > a { display: block; }
