@@ -1703,13 +1703,14 @@ b,
 /* Button
 /* ========================= */
 
-.btn-primary {
+.btn-primary,
+.btn-primary-arrow {
   font-size: 1.4rem;
   font-weight: 700;
   color: #fff;
   background-color: #2296f3;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   height: 4rem;
   line-height: 4rem;
   min-width: 200px;
@@ -1719,6 +1720,14 @@ b,
 
 .btn-primary:hover {
   background-color: #1f87da;
+}
+
+.btn-primary-arrow {
+  text-align: left;
+  background-image: url("/img/icn-arrow-right-white-32x28.png");
+  background-repeat: no-repeat;
+  background-size: 16px 14px;
+  background-position: right 1em center;
 }
 
 /*
@@ -1972,7 +1981,7 @@ a {
 /* Form Button
 /* ------------------------- */
 
-.form .btn-primary {
+.form button[class^='btn'] {
   width: 100%;
 }
 

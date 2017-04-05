@@ -27,4 +27,4 @@
 /* Form Button
 /* ------------------------- */
 
-.form .btn-primary { width: 100%; }
+.form button[class^='btn'] { width: 100%; }
