@@ -189,6 +189,7 @@
   display: block;
   background-color: #1f87da;
   position: absolute;
+  top: 0;
   left: 0;
   z-index: 0;
 }
@@ -419,7 +420,7 @@
   padding-bottom: 6rem;
   background: #3199eb
               url('/img/bg-two-people-meeting-blue-mask-1600x247.jpg')
-              right center
+              center center
               / cover
               no-repeat;
 }

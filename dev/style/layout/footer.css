@@ -51,6 +51,7 @@
 
 .footer-subscribe-bd > * {
   display: table-cell;
+  vertical-align: middle;
 }
 
 .footer-subscribe-bd .input-field-outer { width: 100%; }
