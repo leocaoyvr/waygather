@@ -1,0 +1,132 @@
+/*
+/* Footer
+/* ========================= */
+
+/* Top
+/* ------------------------- */
+
+.footer-top {
+  background-color: #333;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer-top-inner {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+.footer-top-inner > * {
+  display: table-cell;
+}
+
+.footer-link-group {
+  width: 23%;
+}
+
+.footer-group-title {
+  color: #2296f3;
+  margin-bottom: 1em;
+}
+
+.footer-link {
+  color: #a5a5a5;
+  color: rgba(255, 255, 255, .6);
+  line-height: 2;
+  font-size: 1.4rem;
+}
+
+.footer-subscribe-inner {
+  margin-left: auto;
+  max-width: 300px;
+}
+
+.footer-subscribe-bd {
+  margin-top: 4rem;
+  display: table;
+  width: 100%;
+}
+
+.footer-subscribe-bd > * {
+  display: table-cell;
+}
+
+.footer-subscribe-bd .input-field-outer { width: 100%; }
+
+.footer-subscribe .btn-primary {
+  color: #dfeaf6;
+  color: rgba(255, 255, 255, .9);
+  min-width: auto;
+  background-color: #217fca;
+  background-color: rgba(31, 135, 218, .9);
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.footer-subscribe .form-control {
+  background-color: #515151;
+  background-color: rgba(255, 255, 255, .15);
+  border-color: #515151;
+  color: #fff;
+}
+
+.footer-subscribe .btn-primary:hover {
+  background-color: #2376b9;
+  background-color: rgba(31, 135, 218, .8);
+}
+
+
+/* Bottom
+/* ------------------------- */
+
+.footer-bot { background-color: #2a2a2a; }
+
+.footer-bot-inner {
+  display: table;
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2.8rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.footer-bot-inner > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.footer-logo img { height: 2.8rem; }
+
+.footer-legals {
+  color: #a5a5a5;
+  color: rgba(255, 255, 255, .6);
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-socials {
+  font-size: 0;
+  text-align: right;
+}
+
+.footer-social {
+  display: inline-block;
+  background-color: #4a4a4a;
+  background-color: rgba(255, 255, 255, .15);
+  border-radius: 50%;
+  margin-left: 1.4rem;
+}
+
+.footer-social:first-child { margin-left: 0; }
+
+.footer-social-img {
+  padding: .7rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: inline-block;
+  opacity: .6;
+}
