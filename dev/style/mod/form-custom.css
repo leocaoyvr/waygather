@@ -84,3 +84,19 @@
   background-color: transparent;
   border-left-width: 0;
 }
+
+/* Select List Box
+/* ------------------------- */
+
+.listbox {
+  appearance: none;
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  padding: .5em 1em;
+}
+
+.listbox option {
+  font-size: 1.4rem;
+  color: #333;
+  overflow: hidden;
+}

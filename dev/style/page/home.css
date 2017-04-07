@@ -459,3 +459,28 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Modal: Enter Product Category
+/* ------------------------- */
+
+.modal-enter-category .modal-bd { min-height: 400px; }
+
+.modal-enter-category .input-search-keyword .btn-primary,
+.modal-enter-category .input-select-category .btn-primary {
+  float: right;
+  min-width: auto;
+  width: 150px;
+}
+
+.modal-enter-category .input-search-keyword .input-field,
+.modal-enter-category .input-select-category .input-field {
+  float: left;
+  width: 360px;
+}
+
+.modal-enter-category .listbox { margin-top: 1.7rem; }
+
+.modal-enter-category .select-category .listbox { width: 247px; }
+.modal-enter-category .select-category .listbox:first-child { float: left; }
+.modal-enter-category .select-category .listbox:last-child { float: right; }
+
