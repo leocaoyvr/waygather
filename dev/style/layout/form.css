@@ -16,10 +16,14 @@
 .form-row td[colspan='3'] { width: 75%; }
 .form-row td[colspan='4'] { width: 100%; }
 
+.form-gutter {
+  border-bottom: 1px solid #efefef;
+  margin-top: 1rem;
+}
+
 .form .form-row-title {}
 
-.form .input-field {
-}
+.form .input-field {}
 
 .form .input-field.col4 { column-span: 4; }
 .form .input-field.col2 { column-span: 2; }

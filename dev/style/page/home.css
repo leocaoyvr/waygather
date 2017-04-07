@@ -107,6 +107,15 @@
 .svcform-signin-link { text-decoration: underline; }
 .svcform-signin-link:hover { color: #333; }
 
+/* form: more options */
+
+.form-more-options {  display: none; }
+.form-more-options.active { display: table-row-group; }
+
+
+
+
+
 /* Service Info
 /* ------------------------- */
 
