@@ -1,0 +1,28 @@
+/*
+/* Animation
+/* ========================= */
+
+/* Base
+/* ------------------------- */
+
+.animated {
+  animation-duration: .4s;
+  animation-fill-mode: both;
+  animation-timing-function: ease;
+}
+
+/* Fade in Down
+/* ------------------------- */
+
+.fadeInDown { animation-name: fadeInDown; }
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
