@@ -78,7 +78,7 @@ gulp.task('css', function() {
       console.error(error);
       this.emit('end');
     })
-    .pipe(gulp.dest('dev/'))
+    .pipe(gulp.dest('dev/style'))
     .pipe(browserSync.stream());
 });
 
