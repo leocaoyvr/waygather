@@ -42,8 +42,7 @@
   background-color: transparent;
   /* disable browser default style */
   border-radius: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  appearance: none;
 }
 
 .form-control-select + .icn-arrow-down {
