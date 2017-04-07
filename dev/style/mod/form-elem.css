@@ -51,7 +51,9 @@
   padding-right: 1em;
 
   /* disable browser default style */
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 
   transition: border-color ease .4s, background-color ease .4s;
 }
