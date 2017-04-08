@@ -70,4 +70,7 @@ select::-ms-expand {
   display: none;
 }
 
+/* remove IE10, Edge clear icon */
+::-ms-clear { display:none; }
+
 button { background-color: transparent; }

@@ -7,7 +7,7 @@
 
 .input-addon {
   position: absolute;
-  pointer-events: none;
+  /*pointer-events: none;*/
   font-size: 1.4rem;
   padding-left: 1.2rem;
   padding-right: 1.2rem;
@@ -43,6 +43,10 @@
   /* disable browser default style */
   border-radius: 0;
   appearance: none;
+
+  /* fix IE 9, 10 click through issue */
+  position: relative;
+  z-index: 1;
 }
 
 .form-control-select + .icn-arrow-down {
