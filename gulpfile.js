@@ -8,6 +8,7 @@ var csso         = require('gulp-csso');
 var plumber      = require('gulp-plumber');
 var sourcemaps   = require('gulp-sourcemaps');
 var runSequence  = require('run-sequence');
+var pixrem       = require('gulp-pixrem');
 
 // Browser Sync Dev
 gulp.task('browserSync', function() {
@@ -64,6 +65,7 @@ gulp.task('css', function() {
     .pipe(csslint('csslintrc.json'))
     .pipe(csslint.formatter())
     .pipe(csslint.formatter('fail'))
+    .pipe(pixrem({ rootValue: '10px' }))
     .pipe(autoprefixer({
       browsers: ['last 2 versions', 'ie 8', 'ie 9']
     }))
