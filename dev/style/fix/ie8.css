@@ -1,0 +1,37 @@
+/*
+/* IE 8 FIx
+/* ========================= */
+
+/* Form
+/* ------------------------- */
+
+/* fix border-spacing */
+.form td {
+  padding: 8px 10px;
+}
+
+/* hide select arrow, use default ones */
+.form-control-select + .icn-arrow-down { background: none; }
+
+
+/* Modal
+/* ------------------------- */
+
+/* make bg conteent visible, IE 8 no support transparency */
+.modal-outer { background-color: transparent; }
+
+/* Our Clients
+/* ------------------------- */
+
+.ourclients {
+  background-color: #3199eb;
+  background-image: url('/img/bg-two-people-meeting-blue-mask-1600x247.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+
+/*  background: #3199eb
+              url('/img/bg-two-people-meeting-blue-mask-1600x247.jpg')
+              center center
+              / cover
+              no-repeat;*/
+}

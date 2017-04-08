@@ -1,0 +1,12 @@
+/*
+/* IE 9 FIx
+/* ========================= */
+
+/* Form
+/* ------------------------- */
+
+/* hide select arrow, use default ones */
+.form-control-select + .icn-arrow-down { background: none; }
+
+/* make option text visible */
+.input-group-select { min-width: 8em; }

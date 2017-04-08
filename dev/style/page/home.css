@@ -211,12 +211,12 @@
   z-index: 1;
 }
 
-.wwwintro:first-of-type {
+.wwwintro-1 {
   background-color: #1f87da;
   /*background-color: rgba(0, 0, 0, .1);*/
 }
 
-.wwwintro:nth-of-type(2) {
+.wwwintro-2 {
   background-color: #208ee7;
   /*background-color: rgba(0, 0, 0, .05);*/
 }
