@@ -77,7 +77,7 @@
 
 .input-group-select {
   width: auto;
-  min-width: 70px;
+  min-width: 80px;
 }
 
 .input-group-select .form-control-select { border-left-color: transparent; }
