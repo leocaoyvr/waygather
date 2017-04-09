@@ -44,3 +44,5 @@
 /* Button
 /* ------------------------- */
 
+/* fix button arrow position */
+.btn-primary-arrow { background-position: right center; }
