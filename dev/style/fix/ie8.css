@@ -2,6 +2,17 @@
 /* IE 8 FIx
 /* ========================= */
 
+/* Service Form
+/* ------------------------- */
+
+/* use border to replace the no-showing shadows */
+.svcforms-forms {
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #efefef;
+  width: 972px;
+}
+
 /* Form
 /* ------------------------- */
 
