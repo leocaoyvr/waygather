@@ -8,9 +8,9 @@
 .input-addon {
   position: absolute;
   /*pointer-events: none;*/
-  font-size: 1.4rem;
-  padding-left: 1.2rem;
-  padding-right: 1.2rem;
+  font-size: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
   top: 1px;
   right: 1px;
   border-left: 1px solid #e0e0e0;
@@ -30,9 +30,9 @@
 }
 
 .input-addon-icn {
-  font-size: 1.8rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Custom Select
@@ -52,7 +52,7 @@
 .form-control-select + .icn-arrow-down {
   width: 1em;
   height: 1em;
-  padding: 1.2rem 1.4rem;
+  padding: 12px 14px;
   background: #fff url('/img/icn-arrow-down-grey-28x28.png') center center no-repeat;
   background-size: 1em 1em;
 }
@@ -77,7 +77,7 @@
 
 .input-group-select {
   width: auto;
-  min-width: 7rem;
+  min-width: 70px;
 }
 
 .input-group-select .form-control-select { border-left-color: transparent; }
@@ -102,7 +102,7 @@
 }
 
 .listbox option {
-  font-size: 1.4rem;
+  font-size: 14px;
   color: #333;
   overflow: hidden;
 }

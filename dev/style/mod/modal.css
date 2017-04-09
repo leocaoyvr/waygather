@@ -48,13 +48,13 @@
 .modal-close {
   cursor: pointer;
   position: absolute;
-  top: .5rem;
-  right: .5rem;
-  width: 2.8rem;
-  height: 2.8rem;
-  /*padding: 1.2rem 1.4rem;*/
+  top: 5px;
+  right: 5px;
+  width: 28px;
+  height: 28px;
+  /*padding: 12px 14px;*/
   background: url(/img/icn-close-white-28x28.png) center center no-repeat;
-  background-size: 1.4rem 1.4rem;
+  background-size: 14px 14px;
   opacity: .9;
   transition: all .4s ease;
 }
@@ -71,7 +71,7 @@
 
 .modal-tab {
   display: inline-block;
-  margin-right: 2rem;
+  margin-right: 20px;
 }
 
 .modal-tab-link {

@@ -4,10 +4,10 @@
 
 .form {
   width: 100%;
-  border-spacing: 1.7rem 2rem;
+  border-spacing: 17px 20px;
 }
 
-.form tbody:nth-of-type(n + 2) .form-row-title { margin-top: 1rem; }
+.form tbody:nth-of-type(n + 2) .form-row-title { margin-top: 10px; }
 
 .form-row {}
 
@@ -18,7 +18,7 @@
 
 .form-gutter {
   border-bottom: 1px solid #efefef;
-  margin-top: 1rem;
+  margin-top: 10px;
 }
 
 .form .form-row-title {}

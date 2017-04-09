@@ -7,8 +7,8 @@
 
 .footer-top {
   background-color: #333;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .footer-top-inner {
@@ -35,7 +35,7 @@
   color: #a5a5a5;
   color: rgba(255, 255, 255, .6);
   line-height: 2;
-  font-size: 1.4rem;
+  font-size: 14px;
 }
 
 .footer-subscribe-inner {
@@ -44,7 +44,7 @@
 }
 
 .footer-subscribe-bd {
-  margin-top: 4rem;
+  margin-top: 40px;
   display: table;
   width: 100%;
 }
@@ -90,9 +90,9 @@
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  height: 2.8rem;
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
+  height: 28px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .footer-bot-inner > * {
@@ -100,7 +100,7 @@
   vertical-align: middle;
 }
 
-.footer-logo img { height: 2.8rem; }
+.footer-logo img { height: 28px; }
 
 .footer-legals {
   color: #a5a5a5;
@@ -119,15 +119,15 @@
   background-color: #4a4a4a;
   background-color: rgba(255, 255, 255, .15);
   border-radius: 50%;
-  margin-left: 1.4rem;
+  margin-left: 14px;
 }
 
 .footer-social:first-child { margin-left: 0; }
 
 .footer-social-img {
-  padding: .7rem;
-  width: 1.4rem;
-  height: 1.4rem;
+  padding: 7px;
+  width: 14px;
+  height: 14px;
   display: inline-block;
   opacity: .6;
 }

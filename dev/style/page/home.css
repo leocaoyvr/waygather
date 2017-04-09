@@ -36,7 +36,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 140px;
-  margin-bottom: 5rem;
+  margin-bottom: 50px;
 }
 
 /* form tabs */
@@ -69,11 +69,11 @@
 .svcforms-tab i {
   font-size: 2.4em;
   float: left;
-  margin-right: .7rem;
+  margin-right: 7px;
 }
 
 .svcforms-tab span {
-  line-height: 2.4rem;
+  line-height: 24px;
   display: inline-block;
 }
 
@@ -88,7 +88,7 @@
 
 /* forms */
 .svcforms-forms {
-  padding: 1rem 1.3rem;
+  padding: 10px 13px;
   background-color: #fff;
   box-shadow: 0 5px 24px 1.25px rgba(0, 0, 0, 0.06);
 }
@@ -100,7 +100,7 @@
 .svcforms-form.active { display: block; }
 
 .svcform-signin {
-  font-size: 1.2rem;
+  font-size: 12px;
   color: #888;
 }
 
@@ -134,7 +134,7 @@
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 6rem;
+  padding-bottom: 60px;
 }
 
 .svcinfo-inner > * {
@@ -162,7 +162,7 @@
 }
 
 .svcinfo-spec-num-alt {
-  font-size: 1.6rem;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -224,7 +224,7 @@
 .wwwintro-inner {
   display: table;
   width: 100%;
-  padding: 6rem 4rem;
+  padding: 60px 40px;
 }
 
 .wwwintro-inner > * {
@@ -235,20 +235,20 @@
 .wwwintro-icn { font-size: 40px; }
 
 .wwwintro-text {
-  padding-left: 1.5rem;
+  padding-left: 15px;
 }
 
-.wwwintro-text-title { margin-bottom: .5em; }
+.wwwintro-text-title { margin-bottom: 5px; }
 
-.wwwintro-text-link { margin-top: 1em; }
+.wwwintro-text-link { margin-top: 10px; }
 
 /* Product Cards
 /* ------------------------- */
 
 .prodcards-outer {
   background-color: #f5f5f5;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .prodcards {}
@@ -272,8 +272,8 @@
 .prodcards-bd {
   display: table;
 
-  margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-top: 30px;
+  margin-bottom: 40px;
   width: 100%;
 }
 
@@ -288,7 +288,7 @@
 .prodcard:last-child  { border-right: 0; }
 
 .prodcard-inner {
-  padding: 3rem;
+  padding: 30px;
   background-color: #fff;
   text-align: center;
   position: relative;
@@ -316,7 +316,7 @@
 .prodcard-nails {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1rem;
+  margin-top: 10px;
   text-align: center;
   font-size: 0;
 }
@@ -351,15 +351,15 @@
 .prodcard-tag-verified {
   text-transform: uppercase;
   position: absolute;
-  height: 2rem;
-  min-width: 3rem;
+  height: 20px;
+  min-width: 30px;
   padding-left: .5em;
   padding-right: .5em;
-  line-height: 2rem;
+  line-height: 20px;
   color: #fff;
-  top: 1rem;
-  right: 1rem;
-  font-size: 1.3rem;
+  top: 10px;
+  right: 10px;
+  font-size: 13px;
   letter-spacing: 0.015em;
   font-weight: 600;
 }
@@ -376,26 +376,26 @@
   margin-left: auto;
   margin-right: auto;
   display: table;
-  padding: 4rem 3rem;
+  padding: 40px 30px;
 }
 
 .svcguarantee {
   display: table-cell;
   width: 33.33%;
-  padding-right: 2rem;
+  padding-right: 20px;
 }
 
 .svcguarantee:first-of-type { box-shadow: 1px 0 0 0 #e0e0e0; }
 .svcguarantee:nth-of-type(2) { box-shadow: 1px 0 0 0 #e0e0e0; }
 
 .svcguarantee-icn {
-  margin-left: 2rem;
-  margin-right: 2rem;
-  font-size: 3.2rem;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 32px;
   color: #ff8d03;
   border: 1px solid #ff8d03;
-  width: 7rem;
-  height: 7rem;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   text-align: center;
 }
@@ -403,7 +403,7 @@
 .svcguarantee-icn i {
   display: inline-block;
   line-height: 1;
-  padding-top: 1.8rem;
+  padding-top: 18px;
 }
 
 .svcguarantee-inner {
@@ -425,8 +425,8 @@
 .ourclients {
   color: #fff;
   text-align: center;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #3199eb
               url('/img/bg-two-people-meeting-blue-mask-1600x247.jpg')
               center center
@@ -455,7 +455,7 @@
 }
 
 .ourclients-logo-img {
-  height: 3rem;
+  height: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -478,7 +478,7 @@
   width: 360px;
 }
 
-.modal-enter-category .listbox { margin-top: 1.7rem; }
+.modal-enter-category .listbox { margin-top: 17px; }
 
 .modal-enter-category .select-category .listbox { width: 247px; }
 .modal-enter-category .select-category .listbox:first-child { float: left; }
