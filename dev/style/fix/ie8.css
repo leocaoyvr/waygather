@@ -24,6 +24,13 @@
 /* hide select arrow, use default ones */
 .form-control-select + .icn-arrow-down { background: none; }
 
+/* option text alignment */
+
+.form-control-select {
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+
 
 /* Modal
 /* ------------------------- */
