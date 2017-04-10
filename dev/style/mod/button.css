@@ -15,7 +15,7 @@
   min-width: 200px;
   transition: all .4s ease;
   cursor: pointer;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .btn-primary:hover,
