@@ -89,6 +89,8 @@
 /* forms */
 .svcforms-forms {
   padding: 10px 13px;
+  margin-left: 2px; /* offset the exra 2px on both sides */
+  margin-right: 2px;
   background-color: #fff;
   box-shadow: 0 5px 24px 1.25px rgba(0, 0, 0, 0.06);
 }
