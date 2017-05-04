@@ -41,6 +41,7 @@
 /* large and complex blocks
 /* ------------------------- */
 
+
 /* Layout
 /* ------------------------- */
 
@@ -60,7 +61,16 @@
 /* Home page */
 @import url('page/home.css');
 
+/* Fixes
+/* Browser-specific fixes, hacks
+/* ------------------------- */
+
+/* IE Fixes, imported via conditional comments */
+/*@import url('fix/ie8.css');*/
+/*@import url('fix/ie9.css');*/
+
 /* Others
+/* Quick styling, atomic
 /* ------------------------- */
 
 @import url('util/atom.css');
