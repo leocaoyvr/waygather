@@ -4,3 +4,4 @@ node_modules/
 .idea/
 dev/style/style.bundle.css
 dev/style.bundle.css
+package-lock.json
