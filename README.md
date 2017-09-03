@@ -2,9 +2,11 @@
 
 ## About
 
-UI/UX framework for [http://waygather.com](http://waygather.com), developed with plain CSS, HTML and jQuery, automated with Gulp task runner.
+UI/UX framework for WayGather.com, developed with plain CSS, HTML and jQuery, automated with Gulp task runner.
 
 Non-responsive, but compatible with IE 8+ and modern browsers.
+
+[ [View project screenshots](https://dribbble.com/vivianalive/projects/520503-WayGather) ]
 
 ## Setup
 
